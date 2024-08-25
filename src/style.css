@@ -13,7 +13,7 @@
 --Dark--purple: hsl(292, 42%, 14%);
 }
 
-body {
+main {
     min-height: 100vh;
     min-width: 400px;
     display: flex;
@@ -115,7 +115,7 @@ body::-webkit-scrollbar {
 }
 
 @media only screen and (max-width: 768px){
-    body {
+    main {
         background: url('../assets/images/background-pattern-mobile.svg') no-repeat;
         background-size: 100%;
         background-color: var(--Light--pink);
